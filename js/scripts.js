@@ -77,7 +77,12 @@ $(function() {
       $(".guy").hide();
       $(".demogorgon").hide();
       $(".joffrey").hide();
+      $(".matchMessage").hide();
+    }
 
+    if (name === "" || sign === "") {
+      alert('Fill out the frickin form!')
+      $(".matchMessage").hide();
     }
 
 

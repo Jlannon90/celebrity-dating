@@ -1,3 +1,11 @@
+h1 {
+  font-family: Eagle Lake, cursive;
+}
+
+.container {
+  font-family: Eagle Lake, cursive;
+}
+
 .matchPhotoAndMessage {
   display: none;
 }
