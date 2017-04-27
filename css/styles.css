@@ -1,11 +1,57 @@
-h1 {
-  font-family: Eagle Lake, cursive;
-}
 
 .container {
   font-family: Eagle Lake, cursive;
+
 }
 
+h1 {
+  opacity: 1;
+  font-family: Eagle Lake, cursive;
+}
+
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: lightgray;
+
+}
+
+.words {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: lightgray;
+
+}
+
+img {
+  width: 600px;
+  height: auto;
+}
+
+.btn {
+  margin-top: 20px;
+  margin-left: 40%;
+}
+
+body {
+  background-image: url(http://static8.depositphotos.com/1094859/802/v/950/depositphotos_8026896-Doodle-movie-seamless-pattern.jpg);
+
+}
+
+.jumbotron {
+  color: black;
+}
+
+h2 {
+  background-color: lightgray;
+
+}
+
+p {
+  background-color: lightgray;
+  font-size: 16px;
+}
 .matchPhotoAndMessage {
   display: none;
 }

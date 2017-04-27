@@ -6,14 +6,14 @@ $(function() {
     var interestedIn = $("#interestedIn").val();
     var faveShow = $("#faveShow").val();
 
-    if ( interestedIn === "Male" && faveShow === "Game of Thrones") {
+    if ( interestedIn === "Men" && faveShow === "Game of Thrones") {
       $(".joffrey").show();
       $(".cersei").hide();
       $(".demogorgon").hide();
       $(".barb").hide();
       $(".guy").hide();
       $(".ina").hide();
-    } else if ( interestedIn === "Female" && faveShow === "Game of Thrones") {
+    } else if ( interestedIn === "Women" && faveShow === "Game of Thrones") {
       $(".cersei").show();
       $(".demogorgon").hide();
       $(".barb").hide();
@@ -27,14 +27,14 @@ $(function() {
       $(".guy").hide();
       $(".ina").hide();
       $(".joffrey").hide();
-    } else if ( interestedIn === "Male" && faveShow === "Stranger Things") {
+    } else if ( interestedIn === "Men" && faveShow === "Stranger Things") {
       $(".demogorgon").show();
       $(".cersei").hide();
       $(".barb").hide();
       $(".guy").hide();
       $(".ina").hide();
       $(".joffrey").hide();
-    } else if ( interestedIn === "Female" && faveShow === "Stranger Things") {
+    } else if ( interestedIn === "Women" && faveShow === "Stranger Things") {
       $(".barb").show();
       $(".cersei").hide();
       $(".demogorgon").hide();
@@ -48,7 +48,7 @@ $(function() {
       $(".guy").hide();
       $(".ina").hide();
       $(".joffrey").hide();
-    } else if ( interestedIn === "Male" && faveShow === "The Food Network (yes the entire network!)") {
+    } else if ( interestedIn === "Men" && faveShow === "The Food Network (yes the entire network!)") {
       $(".guy").show();
       $(".cersei").hide();
       $(".barb").hide();
@@ -62,7 +62,7 @@ $(function() {
       $(".demogorgon").hide();
       $(".ina").hide();
       $(".joffrey").hide();
-    } else if ( interestedIn === "Female" && faveShow === "The Food Network (yes the entire network!)") {
+    } else if ( interestedIn === "Women" && faveShow === "The Food Network (yes the entire network!)") {
       $(".ina").show();
       $(".cersei").hide();
       $(".barb").hide();
